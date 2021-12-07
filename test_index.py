@@ -10,7 +10,7 @@ def test_add():
     assert multiply(1, 2) == 2
     assert multiply(1, "asdf") == "Invalid Input"
 
-    assert divide(1, 2) == -1
+    assert divide(1, 2) == 0.5
     assert divide(1, "asdf") == "Invalid Input"
     assert divide(1, 0) == "Division by zero"
 
